@@ -1,4 +1,5 @@
-#Blog Application
+##Blog Application: 
+
 Welcome to the Blog Application! This project lets users create and manage blog posts, and add comments to those posts. It uses Laravel for the backend and includes user authentication.
 
 Follow these steps to set up and run the project:

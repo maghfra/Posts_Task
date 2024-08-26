@@ -6,39 +6,39 @@ Follow these steps to set up and run the project:
 
 1. Clone the Repository
    
-3. Install Dependencies
+2. Install Dependencies
    
-Run these commands to install necessary packages:
+ Run these commands to install necessary packages:
 
-**composer install
+ **composer install
 
-**npm install
+ **npm install
 
-5. Configure Environment
+3. Configure Environment
    
-Copy the example environment file and edit it with your database details:
+ Copy the example environment file and edit it with your database details:
 
-**cp .env.example .env
+ **cp .env.example .env
 
-7. Set Up the Database
+4. Set Up the Database
    
-Run the following commands to create the database tables:
+ Run the following commands to create the database tables:
 
-**php artisan migrate
+ **php artisan migrate
 
-9. Set Up Authentication
+5. Set Up Authentication
     
-Laravel UI is used for user authentication. Install the authentication features:
+ Laravel UI is used for user authentication. Install the authentication features:
 
-**php artisan ui bootstrap --auth
+ **php artisan ui bootstrap --auth
 
-**npm run dev
+ **npm run dev
 
-11. Start the Application
+6. Start the Application
     
-Run the development server:
+ Run the development server:
 
-**php artisan serve
+ **php artisan serve
 
 # Visit http://localhost:8000 in your web browser to view the application.
 
@@ -65,7 +65,7 @@ Users can register, log in, and manage their posts and comments. Only logged-in 
 
 # CRUD Operations
 
-Posts:
+*Posts:
 
 Create: Users can create new posts.
 
@@ -75,7 +75,7 @@ Update: Users can edit their own posts.
 
 Delete: Users can delete their own posts.
 
-Comments:
+*Comments:
 
 Users can add comments to posts.
 
